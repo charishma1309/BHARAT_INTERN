@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url(./assets/b6.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    color: aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 0px 60px 25px 60px;
+}
+.a{
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 45px 0px 45px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    color:aqua;
+}
+button{
+
+    border-radius: 12px;
+    color:aqua;
+    background-color:black;
+    padding: 8px 29px;
+    border-color:aqua;
+    border-width: 2.5px;
+    height: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr {
+    height: 2px;
+    background-color:aqua;
+    border: none;
+}
+.ba{
+    padding: 8px 29px;
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+button:hover{
+    height:60px;
+}
+.a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+section{
+    display:contents;
+    align-items: center;
+    justify-content: space-between;
+}
+.img2{
+    height:80px;
+    width:80px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    padding:0px;
+}
+.firstset{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 30px 45px 60px;
+}
+.secondset{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 30px 45px 70px;
+    
+}
+.heading1{
+    display: flex;
+    color:aqua;
+    align-items: center;
+    justify-content: space-around;
+    font-size:45px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:25px 25px 0px 25px;
+}
+.para
+{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.img2:hover{
+    height:110px;
+    width:110px;
+}
